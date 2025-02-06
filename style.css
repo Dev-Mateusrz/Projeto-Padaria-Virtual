@@ -10,9 +10,10 @@
 :root {
   --cor01: #faf8f3;
   --cor02: #eeddc9;
-  --cor03: #ea9949;
+  --cor03: #eebe8e;
   --cor04: #f4963b;
-  --cor05: #301901;
+  --cor05: #5a3618;
+  --cor06: #301901;
 
   --font01: Arial, Helvetica, sans-serif;
   --font02: 'Bread-Coffee', serif;
@@ -54,7 +55,26 @@ header a {
 }
 
 #navegacao > a {
-  color: ;
+  color: var(--cor06);
+  padding: 5px;
+}
+
+#navegacao > a:hover {
+  color: var(--cor06);
+  background-color: var(--cor03);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.281);
+}
+
+#navegacao > a:focus {
+  color: var(--cor03);
+  background-color: var(--cor05);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.281);
 }
 
 .logos {
