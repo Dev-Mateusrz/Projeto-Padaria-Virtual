@@ -8,6 +8,12 @@
 }
 
 :root {
+  --cor01: #faf8f3;
+  --cor02: #eeddc9;
+  --cor03: #ea9949;
+  --cor04: #f4963b;
+  --cor05: #301901;
+
   --font01: Arial, Helvetica, sans-serif;
   --font02: 'Bread-Coffee', serif;
 }
@@ -18,11 +24,12 @@
 }
 
 body {
+  background-color: var(--cor02);
   font-family: var(--font01);
 }
 
 header {
-  background-color: #faf8f3;
+  background-color: var(--cor01);
   color: white;
   padding: 10px;
   max-width: 100%;
@@ -40,12 +47,14 @@ header a {
   margin: 5px;
 }
 
-#navegacao {
-  text-align: left;
-}
 #redes-sociais {
-  padding-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   text-align: center;
+}
+
+#navegacao > a {
+  color: ;
 }
 
 .logos {
