@@ -1,0 +1,53 @@
+@charset 'UTF-8';
+
+@font-face {
+  font-family: 'Bread-Coffee';
+  src: url(fontes/Bread\ Coffee.otf) format(opentype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font01: Arial, Helvetica, sans-serif;
+  --font02: 'Bread-Coffee', serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: var(--font01);
+}
+
+header {
+  background-color: #faf8f3;
+  color: white;
+  padding: 10px;
+  max-width: 100%;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.212);
+}
+
+header > img {
+  display: block;
+  max-width: 180px;
+  margin: auto;
+}
+
+header a {
+  text-decoration: none;
+  margin: 5px;
+}
+
+#navegacao {
+  text-align: left;
+}
+#redes-sociais {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.logos {
+  width: 20px;
+}
