@@ -54,12 +54,21 @@ header a {
   text-align: center;
 }
 
-#navegacao > a {
+hr {
+  width: 90px;
+  margin: auto;
+}
+
+.logos {
+  width: 20px;
+}
+
+#menu > a {
   color: var(--cor06);
   padding: 5px;
 }
 
-#navegacao > a:hover {
+#menu > a:hover {
   color: var(--cor06);
   background-color: var(--cor03);
   padding: 5px;
@@ -68,15 +77,11 @@ header a {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.281);
 }
 
-#navegacao > a:focus {
+#menu > a:focus {
   color: var(--cor03);
   background-color: var(--cor05);
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.281);
-}
-
-.logos {
-  width: 20px;
 }
