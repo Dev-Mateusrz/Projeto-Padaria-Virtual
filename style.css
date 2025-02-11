@@ -85,3 +85,8 @@ hr {
   border-radius: 5px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.281);
 }
+
+.demonstracao {
+  padding: 10px;
+  width: 195px;
+}
