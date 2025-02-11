@@ -86,7 +86,45 @@ hr {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.281);
 }
 
-.demonstracao {
-  padding: 10px;
-  width: 195px;
+section#menu-servicos > h1 {
+  font-size: 2em;
+  margin: 30px 0px 10px 0px;
+}
+
+section#menu-servicos {
+  margin: auto;
+  text-align: center;
+}
+
+section#menu-servicos > div.destaques {
+  display: inline-block;
+  background-color: black;
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+#paes {
+  background-image: url(imagens/destaques/pao.png);
+}
+
+#bolos {
+  background-image: url(imagens/destaques/bolos.png);
+}
+
+#salgados {
+  background-image: url(imagens/destaques/salgados.png);
+}
+
+#tortas {
+  background-image: url(imagens/destaques/tortas.png);
+}
+
+#cafes {
+  background-image: url(imagens/destaques/cafes.png);
+}
+
+#sanduiches {
+  background-image: url(imagens/destaques/sanduiches.png);
 }
