@@ -87,21 +87,27 @@ hr {
 }
 
 section#menu-servicos > h1 {
-  background-image: linear-gradient(45deg, #5a3618ef, #301901d7);
+  background-image: linear-gradient(45deg, rgba(235, 151, 67, 0.644), #f7ac608c);
   color: white;
   padding-top: 5px;
   padding-bottom: 5px;
   max-width: 45vw;
   font-size: 2em;
-  margin: 30px auto 10px auto;
+  margin: 0px auto 20px auto;
   text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.959);
   border-radius: 15px 0px 15px 0px;
 }
 
 section#menu-servicos {
+  background-image: url(imagens/destaques/fundo01.png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 30px;
+  padding-bottom: 20px;
   margin: auto;
   text-align: center;
-  max-width: 700px;
 }
 
 section#menu-servicos > div.destaques {
